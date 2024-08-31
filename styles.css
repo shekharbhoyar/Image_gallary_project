@@ -38,3 +38,22 @@ nav .logo .title{
     font-weight:bold ;
     padding-left: 15px;
 }
+nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    justify-content:flex-start ;
+    list-style: none;
+}
+nav ul li{
+    color: #ffffff;
+    padding: 22px 40px;
+    background-color: #333333;
+}
+nav ul li .active{
+    background-color: #222222;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
