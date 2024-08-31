@@ -50,6 +50,9 @@ nav ul li{
     padding: 22px 40px;
     background-color: #333333;
 }
+nav ul li:hover{
+    background-color:#222222;
+}
 nav ul li .active{
     background-color: #222222;
 }
@@ -57,3 +60,31 @@ nav ul li a{
     color: white;
     text-decoration: none;
 }
+
+/* tablets */
+@media all and (max-width:800px){
+    nav{
+        justify-content: flex-start;
+    }
+
+    nav ul{
+        justify-content: space-between;
+    }
+}
+
+/* phones */
+@media all and (max-width:600px){
+   nav{
+    flex-direction: column;
+    align-items: center;
+   }
+   nav ul{
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+   }
+   nav ul li{
+    text-align: center;
+   }
+}
+
