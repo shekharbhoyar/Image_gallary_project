@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <script>
-        var number;
-        console.log(number.max_number)
+      // console.log(Number.MAX_VALUE);
+      // console.log(Number.MIN_VALUE);
+      // var bigIntNum = 1234567890123456789n;
+      // console.log(bigIntNum + 10n);
+      // var stringg = "Shekhar Bhoyar";
+      // typeof stringg;
+      let obj = {
+        
+            num1 : 20,
+            num2 : 40, 
+            addition: function () {
+                console.log(`Addition : ${this.num1 + this.num2}`)
+            }
+        
+      }
+    
+        obj.addition();
+
     </script>
-</body>
+  </body>
 </html>
